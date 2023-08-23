@@ -1,0 +1,8 @@
+# D:\\00Projects\\00ISD\\ISD\\train.txt
+# D:\\00Projects\\00ISD\\ISD\\val.txt
+
+train: D:\\00Projects\\00ISD\\ISD\\train.txt
+val: D:\\00Projects\\00ISD\\ISD\\val.txt
+
+nc: 5
+names: ['Helmet', 'Goggles', 'Jacket', 'Gloves', 'Footwear']
