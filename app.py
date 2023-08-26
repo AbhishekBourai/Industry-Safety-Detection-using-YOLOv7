@@ -16,14 +16,12 @@ class ClientApp:
         self.filename = "inputImage.jpg"
 
 
-
 @app.route("/train")
 def trainRoute():
     obj = TrainPipeline()
     obj.run_pipeline()
     return 
     
-
 
 @app.route("/")
 def home():
